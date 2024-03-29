@@ -1,0 +1,57 @@
+.formContainer {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.formContainer form {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formContainer form div {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.formContainer form div input {
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+}
+
+.button button {
+    width: 150px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color:lightskyblue;
+    // color: white;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+textarea {
+    height: 60px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgb(82, 79, 79);
+    font-size: 16px;
+    resize: none;
+}

@@ -1,0 +1,48 @@
+.tableDetails {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.tableDetails .tableContainer {
+    width: 100%;
+    margin: auto;
+}
+
+.tableDetails .tableContainer table {
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.editbtn button,
+.deletebtn button {
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+    font-size: 12px;
+}
+
+.deletebtn button {
+    background-color: rgb(211, 72, 72);
+}
+
+.editbtn button {
+    background-color: rgb(54, 190, 63);
+}
+
+thead {
+    background-color: teal;
+    color: white;
+    font-size: 16px;
+}

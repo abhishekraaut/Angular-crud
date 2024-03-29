@@ -1,0 +1,36 @@
+<div class="formContainer">
+  <form [formGroup]="reactiveForm" (ngSubmit)="sendData()">
+
+    <div class="design">
+      <label for="">Title: </label>
+      <input type="text" formControlName="title" placeholder="Enter title of book">
+    </div><br>
+
+    <div class="design">
+      <label for="">Author: </label>
+      <input type="text" formControlName="author" placeholder="Enter author of book">
+    </div><br>
+
+    <div class="design">
+      <label for="">Description: </label>
+      <textarea type="areatext" formControlName="description" placeholder="Write discription of book"></textarea>
+    </div><br>
+
+    <div>
+      <label for="">Publication Year: </label>
+      <input type="date" placeholder="YYYY" formControlName="publicationYear">
+    </div><br>
+
+    <div class="design">
+      <label for="">ISBN: </label>
+      <input type="number" formControlName="isbn" placeholder="Enter ISBN">
+    </div><br>
+
+    <div class="button">
+      <button type="submit" [disabled]="!reactiveForm.valid"> Form Submit </button>
+    </div>
+
+  </form>
+</div>
+<app-show-books></app-show-books>
+
